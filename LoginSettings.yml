@@ -1,0 +1,28 @@
+max-password-length: 32
+min-password-length: 3
+ip-reglimit: 1
+#以下功能还未实现
+unsafe-password:
+  - '123456'
+  - 'password'
+  - 'help'
+  - 'nmsl'
+  - 'cnm'
+  - '123457'
+  - '233'
+  - '666'
+  - '888'
+cannot-use-password:
+  - 'SynC'
+  - 'DeeChael'
+  - 'Gerryawa'
+  - 'hypixel'
+  - 'mcbbs'
+  - 'minecraft'
+  - 'minecraftforum'
+  - 'curseforge'
+  - 'spigot'
+  - 'bukkit'
+  - 'craftbukkit'
+  - 'paperspigot'
+  

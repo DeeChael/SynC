@@ -1,0 +1,11 @@
+join: '&e%player_displayname% join the server'
+left: '&e%player_displayname% left the server'
+kick: '&e%player_displayname% kick from the server'
+title: 
+  #must set title string
+  #or disable title in Settings.yml
+  title: '&eWelcome to the server!'
+  #if you don't want to send subtitle
+  #you can use this:
+  #subtitle: null
+  subtitle: '&bServer name : SynC'

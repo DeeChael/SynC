@@ -1,0 +1,161 @@
+name: SynC
+main: net.DeeChael.SynC.Main
+api-version: 1.13
+version: 1.0.0
+author: DeeChael
+description: A simple plugin
+
+commands:
+  tell:
+    description: tell other player a message
+    aliases:
+    - to
+    - msg
+  kick:
+    description: kick a player
+  gm:
+    description: change player's game mode
+    aliases:
+    - gmode
+  nick:
+    description: change player's nick name
+  unnick:
+    description: cannel a player's nick name
+    aliases:
+    - nickoff
+  realname:
+    description: see a nick name player's real name
+  spawn:
+    description: back to server spawn point
+  setspawn:
+    description: allow a player to set server spawn point
+  sync:
+    description: the main command of the plugin 'SynC'.
+  ban:
+    description: ban a player
+  banip:
+    description: ban a ip
+  unban:
+    description: unban a player
+  unbanip:
+    description: unban a ip
+  menu:
+    description: open default menu
+  login:
+    description: login to server
+    aliases:
+    - l
+    - log
+  register:
+    description: reg to server
+    aliases:
+    - reg
+  changepassword:
+    description: change password
+    aliases:
+    - pwc
+    - cpw
+    - changepw
+  fly:
+    description: may fly
+  chat:
+    description: let some player send a chat message
+  chatcmd:
+    description: let some player send a command
+  xp:
+    description: give player exp or level    
+    
+permissions:
+    sync.*:
+        description: Get all SynC's permissions
+        children:
+            sync.chat: true
+            sync.kick: true
+            sync.gm: true
+            sync.nick: true
+            sync.nickadmin: true
+            sync.spawn: true
+            sync.setspawn: true
+            sync.sync: true
+            sync.ban: true
+            sync.gui.menu: true
+            sync.gui.admin: true
+            sync.login: true
+            sync.register: true
+            sync.changepassword: true
+            sync.fly: true
+            sync.flyadmin: true
+            sync.letchat: true
+            sync.op: true
+
+    sync.chat:
+        description: Allows you to use "tell" Command
+        default: true
+        
+    sync.kick:
+        description: Allows you to use "kick" Command
+        default: op
+        
+    sync.gm:
+        description: Allows you to use "gm" Command
+        default: op
+
+    sync.nick:
+      description: Allows you to use "nick" Command
+      default: true
+
+    sync.nickadmin:
+      description: Allows you to use "nick"'s Admin Command
+      default: op
+      
+    sync.spawn:
+      description: Allows you to use "spawn" Command
+      default: true
+      
+    sync.setspawn:
+      description: Allows you to use "setspawn" Command
+      default: op
+      
+    sync.sync:
+      description: Allows you to use "sync" Command
+      default: op
+      
+    sync.ban:
+      description: Allows you to use "ban,banip,unban,unbanip" Command
+      default: op
+     
+    sync.gui.menu:
+      decription: Allows you open default menu 
+      default: true
+      
+    sync.gui.admin:
+      decription: Allows you open all menu
+      default: op
+      
+    sync.login:
+      decription: Allows you to use "login" Command
+      default: true
+      
+    sync.register:
+      decription: Allows you to use "register" Command
+      default: true
+    
+    sync.changepassword:
+      decription: Allows you to use "changepassword" Command
+      default: true
+      
+    sync.fly:
+      decription: Allows you to use "fly" Command
+      default: op
+      
+    sync.flyadmin:
+      decription: Allows you to use "fly <player>" Command
+      default: op
+      
+    sync.letchat:
+      decription: Allows you to use "chat" Command
+      default: op
+      
+    sync.xp:
+      decription: Allows you to use "xp" Command
+      default: op

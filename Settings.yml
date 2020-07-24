@@ -1,0 +1,7 @@
+#If you disable some thing
+#you must restart the server or reload the plugin with plugin manager
+AllowNick: true
+Menu: true
+Login: true
+JoinMessage: true
+JoinTitle: true
