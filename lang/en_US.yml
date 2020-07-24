@@ -1,0 +1,99 @@
+message:
+  xp:
+    get:
+      exp: '&cThe exp of the player &6%player_displayer% &cis &6%player_exp%'
+      level: '&cThe level of the player &6%player_displayer% &cis &6%player_level%'
+    give:
+      exp: '&cSuccessful give &6%give_exp%exp &cto the player &6%player_displayname%'
+      level: '&cSuccessful give &6%give_level%level &cto the player &6%player_displayname%'
+    set:
+      exp: '&cSuccessful set the exp of the player &6%player_displayname% &cto &6%set_exp%'
+      level: '&cSuccessful set the level of the player &6%player_displayname% &cto &6%set_level%'
+    remove:
+      level: '&cSuccessful remove level &6%remove_level% &cfrom the player &6%player_displayname%'
+  chat:
+    pleaseenter: '&cPlease enter message'
+    pleaseentercommand: '&cPlease enter command'
+  fly:
+    self:
+      open: '&cAbility fly is &6enabled'
+      close: '&cAbility fly is &6disabled'
+    other:
+      open: '&cAbility of player &6%player% &cis &6enabled'
+      close: '&cAbility of player &6%player% &cis &6disabled'
+  login:
+    login:
+      successful: '&cLogin successful'
+      tips: '&cEnter /login <Password> to login'
+    register:
+      successful: '&cRegister successful'
+      tips: '&cEnter /register <Password> <Confirm Password> to register'
+    changepassword:
+      successful: '&cChange password successful'
+      tips: '&cEnter /changepassword <Old Password> <New Password> <Confirm New Password> to change password'
+    error:
+      unlogin: '&cYou have not logged in'
+      unregister: '&cYou have not registered'
+      longer: '&cPassword can not be more than %password_maxlimit% characters'
+      shorter: '&cPassword can not be less than %password_minlimit% characters'
+      ip: '&cOnly %ip_registerlimit% account can be registered for the same IP'
+      unsamepassword: '&cEntered passwords differ from the another'
+      wrongpassword: '&cWrong password'
+      regged: '&cYou have registered'
+      cannotsame: '&cNew password cannot same as old password'
+  ban:
+    youarebanned: '&cYou are banned from the server'
+    somebodyisbanned: '&cPlayer &6%ban_player% &cis banned from the server'
+    notbanned: '&cPlayer has not banned'
+    isunban: '&6%unban% &cis has been unbanned'
+  sync:
+    reload: '&cConfig has been reloaded'
+    error:
+      zerolength: '&cEnter ''/sync help'' to get help'
+  setspawn:
+    success: '&cSet the server spawn point successful'
+  gamemode:
+    self:
+      creative: '&cYour game mode has been updated to &6Creative'
+      survival: '&cYour game mode has been updated to &6Survival'
+      adventure: '&cYour game mode has been updated to &6Adventure'
+      spectator: '&cYour game mode has been updated to &6Sepctator'
+    other:
+      creative: '&cYou have updated &6%player% &c''s game mode to ¡ì6Creative'
+      survival: '&cYou have updated &6%player% &c''s game mode to ¡ì6Survival'
+      adventure: '&cYou have updated &6%player% &c''s game mode to ¡ì6Adventure'
+      spectator: '&cYou have updated &6%player% &c''s game mode to ¡ì6Sepctator'
+    error:
+      wrongmode: '&cPlease enter the correct game mode'
+  kick:
+    noplayer: '&cPlease enter the name of the player'
+    youarekicked: '&cYou are kicked off the server'
+    kickreason: '&cReason: &7%kick_reason%'
+    somebodyiskicked: '&cPlayer &6%kick_player% &cis kicked off the server'
+    kickadmin: '&cHandler: %kick_admin%'
+  tell:
+    error:
+      noplayerandnotext: '&cPlease enter private chat player and private chat content'
+      notext: '&cPlease enter private chat content'
+  nick:
+    self:
+      successnick: '&cYou have nicked to &6%nickname%'
+      successunnick: '&cYou have unnicked successful'
+    other:
+      successunnick: '&cUnnicked the nick of the player &6%player% &c successful. The realname of the player is &6%realplayer%'
+      successseerealname: '&cThe real name of the player &6%player% &cis &6%realplayer%'
+    error:
+      notext: '&cPlease enter the nick name you want to nick'
+      unnotext: '&cPlease enter the name of the player you want to check'
+      longerthan16: '&cNick name cannot longer than 16 charactors'
+      havespace: '&cThe spaces cannot in nick name'
+      nonick: '&cYou have not nicked'
+      othernonick: '&cPlayer &6%player% &chas not nicked'
+  error:
+    longer: '&cCommand length is exceed the limit'
+    offlineplayer: '&cPlayer is offline or not exist'
+    nopermission: '&cYou do not have permission to use this command'
+    mustaplayer: '&cYou are fucking must a player'
+    wrongcmd: '&cWrong command format'
+    wrongplayername: '&cPlease enter the correct player name'
+      

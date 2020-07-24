@@ -1,0 +1,100 @@
+message:
+  xp:
+    get:
+      exp: '&c玩家 &6%player_displayname% &c的经验为 &6%player_exp%'
+      level: '&c玩家 &6%player_displayname% &c的等级为 &6%player_level%'
+    give:
+      exp: '&c成功将 &6%give_exp%经验 &c给予玩家 &6%player_displayname%'
+      level: '&c成功将 &6%give_level%等级 &c给予玩家 &6%player_displayname%'
+    set:
+      exp: '&c成功将玩家 &6%player_displayname% &c的经验设置为 &6%set_exp%'
+      level: '&c成功将玩家 &6%player_displayname% &c的等级设置为 &6%set_level%'
+    remove:
+      level: '&c成功减去玩家 &6%player_displayname% &c的等级 &6%remove_level%级'
+  chat:
+    pleaseenter: '&c请输入内容'
+    pleaseentercommand: '&c请输入指令'
+  fly:
+    self:
+      open: '&c飞行能力 &6开启'
+      close: '&c飞行能力 &6关闭'
+    other:
+      open: '&c玩家 &6%player% &c的飞行能力 &6开启'
+      close: '&c玩家 &6%player% &c的飞行能力 &6关闭'
+  login:
+    login:
+      successful: '&c登录成功'
+      tips: '&c输入/login <密码>登录'
+    register:
+      successful: '&c注册成功'
+      tips: '&c输入/register <密码> <重复密码>注册'
+    changepassword:
+      successful: '&c修改成功'
+      tips: '&c输入/changepassword <旧密码> <新密码> <重复新密码>更改密码'
+    error:
+      unlogin: '&c你还没有登录'
+      unregister: '&c你还没有注册'
+      longer: '&c密码长度不能超过 %password_maxlimit% 个字符'
+      shorter: '&c密码长度不能超过 %password_minlimit% 个字符'
+      ip: '&c同一个ip最多只能注册 %ip_registerlimit% 个账号'
+      unsamepassword: '&c两次输入的密码不一致'
+      wrongpassword: '&c密码错误'
+      regged: '&c你已经注册过了'
+      logged: '&c你已经登陆过了'
+      cannotsame: '&c新密码不能和旧密码一样'
+  ban:
+    youarebanned: '&c你已被服务器封禁'
+    somebodyisbanned: '&c玩家 &6%ban_player% &c被服务器封禁'
+    notbanned: '&c玩家没有被封禁'
+    isunban: '&6%unban% &c被解除封禁'
+  sync:
+    reload: '&c配置文件已重载'
+    error:
+      zerolength: '&c输入/sync help获得帮助'
+  setspawn:
+    success: '&c已设置服务器出生点'
+  gamemode:
+    self:
+      creative: '&c您的游戏模式已更新为 &6创造模式'
+      survival: '&c您的游戏模式已更新为 &6生存模式'
+      adventure: '&c您的游戏模式已更新为 &6冒险模式'
+      spectator: '&c您的游戏模式已更新为 &6旁观者模式'
+    other:
+      creative: '&c您将 &6%player% &c的游戏模式更新为 §6创造模式'
+      survival: '&c您将 &6%player% &c的游戏模式更新为 §6生存模式'
+      adventure: '&c您将 &6%player% &c的游戏模式更新为 §6冒险模式'
+      spectator: '&c您将 &6%player% &c的游戏模式更新为 §6旁观者模式'
+    error:
+      wrongmode: '&c请输入正确的游戏模式'
+  kick:
+    noplayer: '&c请输入玩家名称'
+    youarekicked: '&c你被踢出了服务器'
+    kickreason: '&c原因: &7%kick_reason%'
+    somebodyiskicked: '&c玩家 &6%kick_player% &c被踢出了服务器'
+    kickadmin: '&c处理者: %kick_admin%'
+  tell:
+    error:
+      noplayerandnotext: '&c请输入私聊玩家及私聊内容'
+      notext: '&c请输入私聊内容'
+  nick:
+    self:
+      successnick: '&c你已匿名为 &6%nickname%'
+      successunnick: '&c你已成功解除nick'
+    other:
+      successunnick: '&c成功解除玩家 &6%player% &c的匿名 &c其真名为 &6%realplayer%'
+      successseerealname: '&c玩家 &6%player% &c的真名为 &6%realplayer%'
+    error:
+      notext: '&c请输入你要nick的名称'
+      unnotext: '&c输入你要检查的玩家的名字'
+      longerthan16: '&cnick名称的长度不能超过16个字符'
+      havespace: '&cnick的名称中不能带有空格'
+      nonick: '&c你没有nick'
+      othernonick: '&c玩家 &6%player% &c没有nick'
+  error:
+    longer: '&c指令长度超过限制'
+    offlineplayer: '&c玩家不在线或不存在'
+    nopermission: '&c你没有权限使用此指令'
+    mustaplayer: '&c你必须是个玩家'
+    wrongcmd: '&c错误的指令格式'
+    wrongplayername: '&c请输入正确的玩家名称'
+      
